@@ -3,9 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { HighlighterDirective } from './shared/directives/highlighter.directive';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
+    HighlighterDirective
   ],
   imports: [
     BrowserModule
